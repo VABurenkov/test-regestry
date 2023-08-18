@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:16
 COPY . /app
 WORKDIR /app
-CMD node app.js
+CMD node16 app.js
